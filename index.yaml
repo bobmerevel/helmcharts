@@ -1,0 +1,78 @@
+apiVersion: v1
+entries:
+  starburst-hive:
+  - apiVersion: v2
+    created: "2020-12-19T02:21:41.470322493+03:00"
+    dependencies:
+    - name: starburst-charts-common
+      repository: file://../../starburst-charts-common/helm
+      version: 347.0.5
+    description: Helm chart for Apache Hive
+    digest: e5734df4d973b2242ee2ac048edfba4c22a1122f6c922c283cc72a5c24f12559
+    icon: https://hive.apache.org/images/hive_logo_medium.jpg
+    name: starburst-hive
+    type: application
+    urls:
+    - https://github.com/bobmerevel/helmcharts.git/starburst-hive-347.0.5.tgz
+    version: 347.0.5
+  starburst-presto:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-12-19T02:21:41.473032479+03:00"
+    dependencies:
+    - name: starburst-charts-common
+      repository: file://../../starburst-charts-common/helm
+      version: 347.0.5
+    description: A Helm chart for Starburst Presto
+    digest: cd6d091febbc9cb76402b36e677b55aad7ccfa713b62563bb475b8e6ea17dc1a
+    name: starburst-presto
+    urls:
+    - https://github.com/bobmerevel/helmcharts.git/starburst-presto-347.0.5.tgz
+    version: 347.0.5
+  starburst-presto-operator:
+  - apiVersion: v2
+    created: "2020-12-19T02:21:41.473712511+03:00"
+    dependencies:
+    - name: starburst-charts-common
+      repository: file://../../starburst-charts-common/helm
+      version: 347.0.5
+    description: Starburst Presto Operator
+    digest: 7ef09c757c5407f8035fbf40982f2e77b80534ca3c761c7b295e469621b15bab
+    home: https://github.com/starburstdata/presto-kubernetes
+    icon: https://www.starburstdata.com/wp-content/uploads/fbrfg/favicon-16x16.png?v=alm8ML5A6X
+    keywords:
+    - operator
+    - starburst
+    - presto
+    name: starburst-presto-operator
+    sources:
+    - https://github.com/starburstdata/presto-kubernetes
+    type: application
+    urls:
+    - https://github.com/bobmerevel/helmcharts.git/starburst-presto-operator-347.0.5.tgz
+    version: 347.0.5
+  starburst-ranger:
+  - apiVersion: v2
+    appVersion: 2.0.34
+    created: "2020-12-19T02:21:41.475622419+03:00"
+    dependencies:
+    - name: starburst-charts-common
+      repository: file://../../starburst-charts-common/helm
+      version: 347.0.5
+    description: Apache Ranger
+    digest: 1c4428288e2f2d08452e648543e1d6c441e630dbdeed95d874d3683b0e84ccfa
+    home: https://ranger.apache.org/
+    icon: https://apache.org/favicons/favicon-32x32.png
+    keywords:
+    - ranger
+    - rbac
+    maintainers:
+    - email: pawel.palucha@starburstdata.com
+      name: Pawel Palucha
+    name: starburst-ranger
+    sources:
+    - https://github.com/starburstdata/presto-ranger-private
+    urls:
+    - https://github.com/bobmerevel/helmcharts.git/starburst-ranger-347.0.5.tgz
+    version: 347.0.5
+generated: "2020-12-19T02:21:41.46853626+03:00"
